@@ -22,7 +22,8 @@ Tema do trabalho de Engenharia de Software II
 		Funcionários, é realizado um breve cadastro de cada funcionário, apenas
 	na primeira vez em que acessar o sistema com nome, telefone, e um código único
 	interno, cada funcionário poderá cadastrar livros e realizar a venda do mesmo.
-	Vendedor (editoras/ gravadoras), que fornece os produtos para a loja.
+	Vendedor (editoras/ gravadoras), que fornece os produtos para a loja. Os funcionários
+	deverão no mínimo estar cursando o ensino superior.
 	
 - Atores: 
 		Clientes - Fornecedor - Funcionário - Computador externo. 
@@ -43,7 +44,7 @@ Tema do trabalho de Engenharia de Software II
 	estoque. Consultar disponibilidade, preço, previsão de chegada dos itens vendidos. Calcular descontos de acordo com a promoção
 
 
-- ASTAH pegar uma atividade e detalhar ela: Ex. compra de livro.	*************
+Diagrama de atividade: Processo de compra.
 
 
 - REGRAS DE NEGÓCIO:
