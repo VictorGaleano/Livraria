@@ -1,0 +1,72 @@
+								 REQUISITOS DE SOFTWARE:
+- REQUISITOS FUNCIONAIS:
+
+  RF01 -	Sistema de busca de produtos
+	Haverá um sistema de busca, dísponivel para os funcionários e também para os clientes, em computadores presentes na livraria,
+	que consulte preços, disponibilidade no estoque, previsão de chegada de cada produto da loja e simule potenciais descontos de acordo 
+	com os pontos acumulados no cadastro de cada cliente.
+
+  RF02 -	Cadastrar Funcionário
+	Cada funcionário deverá fazer um breve cadastro no sistema da Livraria para que possa ter acesso ao sistema. Com nome, telefone, e um código único
+ interno.
+
+  RF03 -	Cadastrar clientes
+	O sistema da Locadora deve permitir o cadastro dos cliente que forem realizar uma compra, tanto pela sede física,
+	ou pelo site, com os seguintes dados: Nome, CPF, telefone fixo, telefone móvel, e-mail e endereço completo. Após o cadastro deverá ser fornecido ao cliente
+	um login e uma senha. 
+
+  RF04 - 	Controle de estoque
+	O sistema deverá organizar o estoque, gerando relatórios com os seguintes dados: Disponibilidade, quantidade de cada idem, localização(em setores) do produto
+	dentro do estoque, previsão de chegada.
+
+  RF05 - 	Gerar relatório de vendas
+	Deverá ser gerado um relatório pelo sistema. O usuário poderá escolher: relatório mensal
+	relatório quinzenal ou semanal. Com os seguintes dados: Produtos mais vendidos, dia da semana com o maior e menor lucro, gastos	e faturamento parcial e total 
+	de cada categoria de produto, total de descontos providos, clientes com mais pontos acumulados. Funcionários que efetuaram mais vendas, no período selecionado.
+	Todos os dados com seus respectivos percentuais de evolução ou involução.
+
+  RF06 - 	Promoção
+	O sistema ira calcular os descontos de acordo com o cadastro do cliente. Será feito um calculo a partir de pontos acumulados em compras anteriores.
+	Para cada real gasto, será creditado 1 ponto ao cliente. Pontos que poderão ser trocados por brindes ou descontos. Para cada 50 pontos é creditado 10% de desconto.
+
+
+  RF07 -	Emitir Cupon Fiscal
+	Assim que efetuada uma venda de qualquer produto da Loja, deverá ser realizada a emissão de um cupom fiscal, contendo os dados da venda realizada, 
+	código do produto, nome, preço unitário, preço total, operador do sistema e data e hora da venda.
+
+
+  RF08 -	Cdastro de Produtos
+	O sistema deverá exibir um formulário para que o funcionário cadastre um produto. Deve conter os seguintes campos: nome, descrição, autor, editora, ano de
+	publicação, gênero, preço de venda.
+
+____
+
+- REQUISITOS NÃO FUNCIONAIS
+
+
+  RNF01 -	Interface
+	O sistema deverá possuir uma interface intuitiva. Para que seus usuários ganhem agilidade na utilização.
+
+  RNF02 -	Disponibilidade
+	O site da Locadora deve estar acessível 7 dias por semana e 24 horas por dia, com tolerância de 1 % para erros. O sistema da loja deve estar disponível 
+	de segunda a sábado das 8h00 às 22h00, e domingo das 10h às 20h.
+	
+  RNF03 -	Desempenho
+	O sistema deve responder as solicitações dos clientes no maximo em 3 segundos, quando estiver com até 1000 clientes logados.
+
+  RNF04 -	Fácil Manutenção 
+	O sistema requer uma manutenão ágil, para que não fique muito tempo fora do ar, resultando em prejuízo. Deve ser desenvolvida para web, no site 
+	e orientada a objetos na sede física.
+	
+  RNF05- 	Usabilidade
+	O sistema e o site deve conter as seguintes cores, segundo o padrão RGB de cores; #003300 ; #CCFFCC ; #000000  	
+
+  RNF06 -	Acesso as funcionalidades do sistema
+	Todos os funcionários deverão utilizar seu login e senha para ter acesso as funcionalidades do sistemas delegadas de acordo com seu cargo.
+
+ RNF02 -	Multiplataforma
+	O sistema deverá funcionar normalmente nos seguintes sistemas operacionais: windows e linux.	
+
+RNF03 -		Acessibilidade aos deficiêntes visuais
+	O sistema deverá ser compatível com os principais software de auxílio aos deficientes visuais.
+	
