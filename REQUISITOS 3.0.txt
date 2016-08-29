@@ -2,71 +2,71 @@
 - REQUISITOS FUNCIONAIS:
 
   RF01 -	Sistema de busca de produtos
-	Haver· um sistema de busca, dÌsponivel para os funcion·rios e tambÈm para os clientes, em computadores presentes na livraria,
-	que consulte preÁos, disponibilidade no estoque, previs„o de chegada de cada produto da loja e simule potenciais descontos de acordo 
+	Haver√° um sistema de busca, d√≠sponivel para os funcion√°rios e tamb√©m para os clientes, em computadores presentes na livraria,
+	que consulte pre√ßos, disponibilidade no estoque, previs√£o de chegada de cada produto da loja e simule potenciais descontos de acordo 
 	com os pontos acumulados no cadastro de cada cliente.
 
-  RF02 -	Cadastrar Funcion·rio
-	Cada funcion·rio dever· fazer um breve cadastro no sistema da Livraria para que possa ter acesso ao sistema. Com nome, telefone, e um cÛdigo ˙nico
+  RF02 -	Cadastrar Funcion√°rio
+	Cada funcion√°rio dever√° fazer um breve cadastro no sistema da Livraria para que possa ter acesso ao sistema. Com nome, telefone, e um c√≥digo √∫nico
  interno.
 
   RF03 -	Cadastrar clientes
-	O sistema da Locadora deve permitir o cadastro dos cliente que forem realizar uma compra, tanto pela sede fÌsica,
-	ou pelo site, com os seguintes dados: Nome, CPF, telefone fixo, telefone mÛvel, e-mail e endereÁo completo. ApÛs o cadastro dever· ser fornecido ao cliente
+	O sistema da Locadora deve permitir o cadastro dos cliente que forem realizar uma compra, tanto pela sede f√≠sica,
+	ou pelo site, com os seguintes dados: Nome, CPF, telefone fixo, telefone m√≥vel, e-mail e endere√ßo completo. Ap√≥s o cadastro dever√° ser fornecido ao cliente
 	um login e uma senha. 
 
   RF04 - 	Controle de estoque
-	O sistema dever· organizar o estoque, gerando relatÛrios com os seguintes dados: Disponibilidade, quantidade de cada idem, localizaÁ„o(em setores) do produto
-	dentro do estoque, previs„o de chegada.
+	O sistema dever√° organizar o estoque, gerando relat√≥rios com os seguintes dados: Disponibilidade, quantidade de cada idem, localiza√ß√£o(em setores) do produto
+	dentro do estoque, previs√£o de chegada.
 
-  RF05 - 	Gerar relatÛrio de vendas
-	Dever· ser gerado um relatÛrio pelo sistema. O usu·rio poder· escolher: relatÛrio mensal
-	relatÛrio quinzenal ou semanal. Com os seguintes dados: Produtos mais vendidos, dia da semana com o maior e menor lucro, gastos	e faturamento parcial e total 
-	de cada categoria de produto, total de descontos providos, clientes com mais pontos acumulados. Funcion·rios que efetuaram mais vendas, no perÌodo selecionado.
-	Todos os dados com seus respectivos percentuais de evoluÁ„o ou involuÁ„o.
+  RF05 - 	Gerar relat√≥rio de vendas
+	Dever√° ser gerado um relat√≥rio pelo sistema. O usu√°rio poder√° escolher: relat√≥rio mensal
+	relat√≥rio quinzenal ou semanal. Com os seguintes dados: Produtos mais vendidos, dia da semana com o maior e menor lucro, gastos	e faturamento parcial e total 
+	de cada categoria de produto, total de descontos providos, clientes com mais pontos acumulados. Funcion√°rios que efetuaram mais vendas, no per√≠odo selecionado.
+	Todos os dados com seus respectivos percentuais de evolu√ß√£o ou involu√ß√£o.
 
-  RF06 - 	PromoÁ„o
-	O sistema ira calcular os descontos de acordo com o cadastro do cliente. Ser· feito um calculo a partir de pontos acumulados em compras anteriores.
-	Para cada real gasto, ser· creditado 1 ponto ao cliente. Pontos que poder„o ser trocados por brindes ou descontos. Para cada 50 pontos È creditado 10% de desconto.
+  RF06 - 	Promo√ß√£o
+	O sistema ira calcular os descontos de acordo com o cadastro do cliente. Ser√° feito um calculo a partir de pontos acumulados em compras anteriores.
+	Para cada real gasto, ser√° creditado 1 ponto ao cliente. Pontos que poder√£o ser trocados por brindes ou descontos. Para cada 50 pontos √© creditado 10% de desconto.
 
 
   RF07 -	Emitir Cupon Fiscal
-	Assim que efetuada uma venda de qualquer produto da Loja, dever· ser realizada a emiss„o de um cupom fiscal, contendo os dados da venda realizada, 
-	cÛdigo do produto, nome, preÁo unit·rio, preÁo total, operador do sistema e data e hora da venda.
+	Assim que efetuada uma venda de qualquer produto da Loja, dever√° ser realizada a emiss√£o de um cupom fiscal, contendo os dados da venda realizada, 
+	c√≥digo do produto, nome, pre√ßo unit√°rio, pre√ßo total, operador do sistema e data e hora da venda.
 
 
-  RF08 -	Cdastro de Produtos
-	O sistema dever· exibir um formul·rio para que o funcion·rio cadastre um produto. Deve conter os seguintes campos: nome, descriÁ„o, autor, editora, ano de
-	publicaÁ„o, gÍnero, preÁo de venda.
+  RF08 -	Cadastro de Produtos
+	O sistema dever√° exibir um formul√°rio para que o funcion√°rio cadastre um produto. Deve conter os seguintes campos: nome, descri√ß√£o, autor, editora, ano de
+	publica√ß√£o, g√™nero, pre√ßo de venda.
 
 ____
 
-- REQUISITOS N√O FUNCIONAIS
+- REQUISITOS N√ÉO FUNCIONAIS
 
 
   RNF01 -	Interface
-	O sistema dever· possuir uma interface intuitiva. Para que seus usu·rios ganhem agilidade na utilizaÁ„o.
+	O sistema dever√° possuir uma interface intuitiva. Para que seus usu√°rios ganhem agilidade na utiliza√ß√£o.
 
   RNF02 -	Disponibilidade
-	O site da Locadora deve estar acessÌvel 7 dias por semana e 24 horas por dia, com toler‚ncia de 1 % para erros. O sistema da loja deve estar disponÌvel 
-	de segunda a s·bado das 8h00 ‡s 22h00, e domingo das 10h ‡s 20h.
+	O site da Locadora deve estar acess√≠vel 7 dias por semana e 24 horas por dia, com toler√¢ncia de 1 % para erros. O sistema da loja deve estar dispon√≠vel 
+	de segunda a s√°bado das 8h00 √†s 22h00, e domingo das 10h √†s 20h.
 	
   RNF03 -	Desempenho
-	O sistema deve responder as solicitaÁıes dos clientes no maximo em 3 segundos, quando estiver com atÈ 1000 clientes logados.
+	O sistema deve responder as solicita√ß√µes dos clientes no maximo em 3 segundos, quando estiver com at√© 1000 clientes logados.
 
-  RNF04 -	F·cil ManutenÁ„o 
-	O sistema requer uma manuten„o ·gil, para que n„o fique muito tempo fora do ar, resultando em prejuÌzo. Deve ser desenvolvida para web, no site 
-	e orientada a objetos na sede fÌsica.
+  RNF04 -	F√°cil Manuten√ß√£o 
+	O sistema requer uma manuten√£o √°gil, para que n√£o fique muito tempo fora do ar, resultando em preju√≠zo. Deve ser desenvolvida para web, no site 
+	e orientada a objetos na sede f√≠sica.
 	
   RNF05- 	Usabilidade
-	O sistema e o site deve conter as seguintes cores, segundo o padr„o RGB de cores; #003300 ; #CCFFCC ; #000000  	
+	O sistema e o site deve conter as seguintes cores, segundo o padr√£o RGB de cores; #003300 ; #CCFFCC ; #000000  	
 
   RNF06 -	Acesso as funcionalidades do sistema
-	Todos os funcion·rios dever„o utilizar seu login e senha para ter acesso as funcionalidades do sistemas delegadas de acordo com seu cargo.
+	Todos os funcion√°rios dever√£o utilizar seu login e senha para ter acesso as funcionalidades do sistemas delegadas de acordo com seu cargo.
 
- RNF02 -	Multiplataforma
-	O sistema dever· funcionar normalmente nos seguintes sistemas operacionais: windows e linux.	
+  RNF07 -	Multiplataforma
+	O sistema dever√° funcionar normalmente nos seguintes sistemas operacionais: windows e linux.	
 
-RNF03 -		Acessibilidade aos deficiÍntes visuais
-	O sistema dever· ser compatÌvel com os principais software de auxÌlio aos deficientes visuais.
+  RNF08 -	Acessibilidade aos defici√™ntes visuais
+	O sistema dever√° ser compat√≠vel com os principais software de aux√≠lio aos deficientes visuais.
 	
